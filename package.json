@@ -1,0 +1,16 @@
+{
+  "name": "javascriptProfesional",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server"
+
+  },
+  "keywords": [],
+  "author": "Juan Pablo Meza Gazabon <juanpablomg17@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
