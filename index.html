@@ -15,6 +15,8 @@
     </header>
 
     <main class="container">
+ 
+
       <video class="movie">
         <source src="assets/BigBuckBunny_512kb.mp4"/>
       </video>
@@ -22,33 +24,6 @@
       <button>Play/Pause</button>
     </main>
 
-    <script>
-        const video = document.querySelector("video");
-        const button = document.querySelector("button");
-
-        class MediaPlayer{
-
-            constructor(config){
-                this.media = config.el;
-                
-                
-            }
-
-            play(){
-                if (this.media.paused){
-                    this.media.play();
-                    console.log("holas")
-                }else{
-                    this.media.pause(); // holas
-                }
-                
-            }
-        }
-
-        const player = new MediaPlayer({el: video});
-        button.onclick = () => player.play();
-        
-
-    </script>
+    <script type="module" src="/assets/index.js"></script>
   </body>
 </html>
